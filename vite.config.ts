@@ -3,6 +3,6 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/codespaces-blank/',
-  plugins: [react()],
-})
+    plugins: [react()],
+      base: '/codespaces-blank/',
+      })
